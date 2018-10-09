@@ -1,449 +1,615 @@
 <!DOCTYPE html>
- <html lang="es">
- <head><title>Politica Privacidad</title> 
- <link rel="stylesheet" type="text/css" href="/css/avon-main.css" />
- </head> 
- <body> 
- <section id="avon-poc" class="">  
- <div class="no-reverse-bg avon-header"> 
- <div class="row px-0 mx-0"> 
- <div class="col-xs-12 px-0"> 
-  <header class="global-header" role="banner">
+<html lang="es">
 
-    <!-- Primary navbar -->
-    <!-- START - GLOBAL HEADER NAV CONTAINER -->
-  <nav class="navbar navbar--primary-nav navbar-default border-bottom d-flex flex-wrap align-items-center justify-content-center" role="navigation">
+<head>
+  <title>AVON PR Home</title>
+  <link rel="stylesheet" type="text/css" href="/css/avon-main.css" />
+</head>
 
-    <!-- ghost placeholder - this invisible div holds a relative position for utility nav on desktop -->
-    <div class="primary-nav__ghost"></div>
+<body>
+  <section id="avon-poc" class="">
+    <div class="no-reverse-bg avon-header">
+      <div class="row px-0 mx-0">
+        <div class="col-xs-12 px-0">
+          <header class="global-header" role="banner">
 
-    <!-- search -->
-    <div class="primary-nav__search">
-      <a href="javascript:void(0)" class="link-plain" ondragstart="return false;">
-    <span class="lt-icon lt-search lt-large"></span>
-    <span class="text-uppercase text-muted-medium hidden-xs-header ml-0 ml-md-2"><strong>Search</strong></span>
-    <input class="primary-nav__search-input text-muted form-inline font-weight-bold ml-0 ml-md-2" type="text" placeholder="SEARCH" autocomplete="off">
-    <span class="lt-icon lt-close lt-large text-muted"></span>
-  </a>
-    <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 373px; max-height: 285px; z-index: 9999;"></div></div>
+            <!-- Primary navbar -->
+            <!-- START - GLOBAL HEADER NAV CONTAINER -->
+            <nav class="navbar navbar--primary-nav navbar-default border-bottom d-flex flex-wrap align-items-center justify-content-center"
+              role="navigation">
 
-    <!-- logo -->
-    <div class="primary-nav__logo flex-fill">
-      <a href="index.html">
-    <img src="/images/logos/logo_your_avon_dt.png" class="hidden-xs" alt="Your Avon">
-    <img src="/images/logos/logo_your_avon_mob.png" class="visible-xs" alt="Your Avon">
-  </a>
-    </div>
+              <!-- ghost placeholder - this invisible div holds a relative position for utility nav on desktop -->
+              <div class="primary-nav__ghost"></div>
 
-    <!-- order / cart -->
-    <div class="primary-nav__cart">
-      <a href="#" class="link-plain" data-toggle="popover" data-container="body" data-placement="bottom" data-html="true" id="popover-cart" data-original-title="" title="">
-    <span class="small text-uppercase text-muted-medium hidden-xs-header"><strong>Start an Order</strong></span>
-    <span class="lt-icon lt-cart lt-large badged-icon">
-      <span class="badge badge--align-right">12</span>
-    </span>
-  </a>
+              <!-- search -->
+              <div class="primary-nav__search">
+                <a href="javascript:void(0)" class="link-plain" ondragstart="return false;">
+                  <span class="lt-icon lt-search lt-large"></span>
+                  <span class="text-uppercase text-muted-medium hidden-xs-header ml-0 ml-md-2"><strong>Search</strong></span>
+                  <input class="primary-nav__search-input text-muted form-inline font-weight-bold ml-0 ml-md-2" type="text"
+                    placeholder="SEARCH" autocomplete="off">
+                  <span class="lt-icon lt-close lt-large text-muted"></span>
+                </a>
+                <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 373px; max-height: 285px; z-index: 9999;"></div>
+              </div>
 
-  <!-- Note :: js for the cart popover is located in avon-main.js near the bottom on document ready - $("#popover-cart") -->
-  <div id="popover-cart-content" class="hide">
-    <!-- START - ORDER OVERVIEW -->
-  <!-- <section class="checkout-order-total"> -->
-  <section class="checkout-order-overview">
-    <!-- <div class=""> -->
-      <h6 class="mb-4">Order Overview</h6>
-      <ul class="list-unstyled order-overview-items">
-        <li class="clearfix mb-4">
-          <span class="pull-left customer-name overflow-ellipsis">Rosa Kim</span>
-          <span class="pull-right subtotal">$190.00</span>
-        </li>
-        <li class="clearfix mb-4">
-          <span class="pull-left customer-name overflow-ellipsis">Phoebe Page</span>
-          <span class="pull-right offers-total">$80.00</span>
-        </li>
-        <li class="clearfix mb-4">
-          <span class="pull-left customer-name overflow-ellipsis">Tisha Pentagram</span>
-          <span class="pull-right discount">$100.00</span>
-        </li>
-        <li class="clearfix mb-3">
-          <span class="pull-left small text-muted">+ <span class="num-carts">12</span> additional carts</span>
-        </li>
-      </ul>
+              <!-- logo -->
+              <div class="primary-nav__logo flex-fill">
+                <a href="index.html">
+                  <img src="/images/logos/logo_your_avon_dt.png" class="hidden-xs" alt="Your Avon">
+                  <img src="/images/logos/logo_your_avon_mob.png" class="visible-xs" alt="Your Avon">
+                </a>
+              </div>
 
-      <hr class="my-3">
+              <!-- order / cart -->
+              <div class="primary-nav__cart">
+                <a href="#" class="link-plain" data-toggle="popover" data-container="body" data-placement="bottom"
+                  data-html="true" id="popover-cart" data-original-title="" title="">
+                  <span class="small text-uppercase text-muted-medium hidden-xs-header"><strong>Start an Order</strong></span>
+                  <span class="lt-icon lt-cart lt-large badged-icon">
+                    <span class="badge badge--align-right">12</span>
+                  </span>
+                </a>
 
-      <p class="clearfix">
-        <strong class="pull-left">Order Subtotal:</strong>
-        <strong class="pull-right offers-total">$90.00</strong>
-      </p>
+                <!-- Note :: js for the cart popover is located in avon-main.js near the bottom on document ready - $("#popover-cart") -->
+                <div id="popover-cart-content" class="hide">
+                  <!-- START - ORDER OVERVIEW -->
+                  <!-- <section class="checkout-order-total"> -->
+                  <section class="checkout-order-overview">
+                    <!-- <div class=""> -->
+                    <h6 class="mb-4">Order Overview</h6>
+                    <ul class="list-unstyled order-overview-items">
+                      <li class="clearfix mb-4">
+                        <span class="pull-left customer-name overflow-ellipsis">Rosa Kim</span>
+                        <span class="pull-right subtotal">$190.00</span>
+                      </li>
+                      <li class="clearfix mb-4">
+                        <span class="pull-left customer-name overflow-ellipsis">Phoebe Page</span>
+                        <span class="pull-right offers-total">$80.00</span>
+                      </li>
+                      <li class="clearfix mb-4">
+                        <span class="pull-left customer-name overflow-ellipsis">Tisha Pentagram</span>
+                        <span class="pull-right discount">$100.00</span>
+                      </li>
+                      <li class="clearfix mb-3">
+                        <span class="pull-left small text-muted">+ <span class="num-carts">12</span> additional carts</span>
+                      </li>
+                    </ul>
 
-      <hr class="mt-3 mb-4">
+                    <hr class="my-3">
 
-      <a href="javascript:void(0)" class="btn btn-primary btn-block" role="button">View Order</a>
+                    <p class="clearfix">
+                      <strong class="pull-left">Order Subtotal:</strong>
+                      <strong class="pull-right offers-total">$90.00</strong>
+                    </p>
 
-    <!-- </div> -->
+                    <hr class="mt-3 mb-4">
 
-  </section>
-  <!-- END - ORDER OVERVIEW -->
-  </div>
-    </div>
+                    <a href="javascript:void(0)" class="btn btn-primary btn-block" role="button">View Order</a>
 
-    <!-- mobile menu toggle / hamburger -->
-    <button class="primary-nav__toggle navbar-toggle p-0 m-0" type="button" data-toggle="off-canvas-collapse" data-target=".navbar-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+                    <!-- </div> -->
 
-    <!-- header nav & off-canvas mobile menu -->
-    <div class="primary-nav__content navbar-collapse off-canvas flex-wrap align-content-start justify-content-center">
-      <!-- Close button -->
-  <button class=" navbar-toggle primary-nav__close link-reverse-plain m-0 p-4" type="button" data-toggle="off-canvas-collapse" data-target=".navbar-collapse">
-    <span class="sr-only">Close navigation</span>
-    <span class="lt-icon lt-close lt-large py-1"></span>
-  </button>
+                  </section>
+                  <!-- END - ORDER OVERVIEW -->
+                </div>
+              </div>
 
-  <!-- Utility nav 2 -->
-  <!-- START - UTILITY NAV 2 -->
-  <nav class="navbar navbar-inverse navbar-static-top navbar--utility-2 border-0 d-flex">
+              <!-- mobile menu toggle / hamburger -->
+              <button class="primary-nav__toggle navbar-toggle p-0 m-0" type="button" data-toggle="off-canvas-collapse"
+                data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <!-- START - MORE TOOLS LOGOS -->
-  <!-- START - MORE TOOLS -->
-  <ul class="nav navbar-nav tools-list mx-0 d-flex text-uppercase small">
-    <li>
-      <a class="py-0 px-2 link-reverse" href="#" title="Avon U Training">
-        <span>Avon U <span class="hidden-xs-header">Training</span></span>
-      </a>
-    </li>
-    <li>
-      <a class="py-0 px-2 link-reverse" href="#" title="Alma">
-        <span>ALMA</span>
-      </a>
-    </li>
-    <li>
-      <a class="py-0 px-2 link-reverse" href="#" title="Vibe">
-        <span>Vibe</span>
-      </a>
-    </li>
-    <li>
-      <a class="py-0 px-2 link-reverse" href="#" title="Avon Social">
-        <span>Avon Social</span>
-      </a>
-    </li>
-  </ul>
-  <!-- END - MORE TOOLS -->
-  <!-- END - MORE TOOLS LOGOS -->
+              <!-- header nav & off-canvas mobile menu -->
+              <div class="primary-nav__content navbar-collapse off-canvas flex-wrap align-content-start justify-content-center">
+                <!-- Close button -->
+                <button class=" navbar-toggle primary-nav__close link-reverse-plain m-0 p-4" type="button" data-toggle="off-canvas-collapse"
+                  data-target=".navbar-collapse">
+                  <span class="sr-only">Close navigation</span>
+                  <span class="lt-icon lt-close lt-large py-1"></span>
+                </button>
 
-  <!-- START - ACCOUNT SECTION -->
-  <!-- START - ACCOUNT SECTION -->
-  <ul class="nav navbar-nav account-list d-flex flex-row m-0 p-0">
+                <!-- Utility nav 2 -->
+                <!-- START - UTILITY NAV 2 -->
+                <nav class="navbar navbar-inverse navbar-static-top navbar--utility-2 border-0 d-flex">
 
-    <li class="account-list__user">
-      <a class="p-0" href="#">
-        <span class="profile-img align-middle d-inline-block mr-2">
-          <img class="avatar img-responsive" src="/images/fpo/img_avatar.png">
-        </span>
-        <span class="profile-name text-uppercase d-inline-block align-middle overflow-ellipsis">Jane Johnson</span>
-      </a>
-    </li>
+                  <!-- START - MORE TOOLS LOGOS -->
+                  <!-- START - MORE TOOLS -->
+                  <ul class="nav navbar-nav tools-list mx-0 d-flex text-uppercase small">
+                    <li>
+                      <a class="py-0 px-2 link-reverse" href="#" title="Avon U Training">
+                        <span>Avon U <span class="hidden-xs-header">Training</span></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="py-0 px-2 link-reverse" href="#" title="Alma">
+                        <span>ALMA</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="py-0 px-2 link-reverse" href="#" title="Vibe">
+                        <span>Vibe</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="py-0 px-2 link-reverse" href="#" title="Avon Social">
+                        <span>Avon Social</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- END - MORE TOOLS -->
+                  <!-- END - MORE TOOLS LOGOS -->
 
-    <li class="dropdown account-list__drop">
-      <a href="#" id="accountDrop" role="button" class="dropdown-toggle pl-2" data-toggle="dropdown">My Account <i class="lt-icon lt-triangle-down"></i></a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="accountDrop">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Password</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Balance</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pay Avon</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Get Paid by Avon</a></li>
-      </ul>
-    </li>
+                  <!-- START - ACCOUNT SECTION -->
+                  <!-- START - ACCOUNT SECTION -->
+                  <ul class="nav navbar-nav account-list d-flex flex-row m-0 p-0">
 
-    <li class="account-list__language">
-      <a class="small link-reverse-underline" href="#">Español</a>
-    </li>
+                    <li class="account-list__user">
+                      <a class="p-0" href="#">
+                        <span class="profile-img align-middle d-inline-block mr-2">
+                          <img class="avatar img-responsive" src="/images/fpo/img_avatar.png">
+                        </span>
+                        <span class="profile-name text-uppercase d-inline-block align-middle overflow-ellipsis">Jane
+                          Johnson</span>
+                      </a>
+                    </li>
 
-    <li class="account-list__log">
-      <a class="small link-reverse-underline pr-2" href="#">Log Out</a>
-    </li>
+                    <li class="dropdown account-list__drop">
+                      <a href="#" id="accountDrop" role="button" class="dropdown-toggle pl-2" data-toggle="dropdown">My
+                        Account <i class="lt-icon lt-triangle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="accountDrop">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Password</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Balance</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pay Avon</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Get Paid by Avon</a></li>
+                      </ul>
+                    </li>
 
-    <div class="navbar-backdrop"></div>
+                    <li class="account-list__language">
+                      <a class="small link-reverse-underline" href="#">Español</a>
+                    </li>
 
-  </ul>
-  <!-- END - ACCOUNT SECTION -->
-  <!-- END - ACCOUNT SECTION -->
+                    <li class="account-list__log">
+                      <a class="small link-reverse-underline pr-2" href="#">Log Out</a>
+                    </li>
 
-  </nav>
-  <!-- END - UTILITY NAV 2 -->
+                    <div class="navbar-backdrop"></div>
 
-  <!-- Utility nav 1 -->
-  <!-- START - UTILITY NAV 1 -->
-  <nav class="navbar navbar-default navbar-static-top navbar--utility-1 border-0 d-flex">
+                  </ul>
+                  <!-- END - ACCOUNT SECTION -->
+                  <!-- END - ACCOUNT SECTION -->
 
-      <!-- START - ITEM ENTRY / BROCHURES BUTTONS -->
-      <ul class="nav row m-0">
-        <li class="col-xs-6">
-    <a class="trigger-drawer-item-entry text-uppercase btn-trans-dark-responsive" href="#">
-      <span class="lt-icon lt-item-entry lt-medium" aria-hidden="true"></span>
-      <strong>Enter Items</strong>
-    </a>
-  </li>
-        <li class="col-xs-6">
-    <a class="trigger-drawer-item-entry text-uppercase btn-trans-dark-responsive" href="#">
-      <span class="lt-icon lt-brochures lt-medium" aria-hidden="true"></span>
-      <strong>Brochures</strong>
-    </a>
-  </li>
-      </ul>
-      <!-- END - ITEM ENTRY / BROCHURES BUTTONS -->
+                </nav>
+                <!-- END - UTILITY NAV 2 -->
 
-      <!-- START - ESTORE / SUPPORT BUTTONS -->
-      <ul class="nav row m-0">
+                <!-- Utility nav 1 -->
+                <!-- START - UTILITY NAV 1 -->
+                <nav class="navbar navbar-default navbar-static-top navbar--utility-1 border-0 d-flex">
 
-  <li class="col-xs-6 dropdown">
-  <a href="" data-original-title="" title="">
-      <span class="lt-icon lt-store lt-medium"></span>
-      <strong>My Store</strong>
-      <span class="lt-icon lt-triangle-down hidden-xs-header"></span>
-    </a>
-  </li>
-        <li class="col-xs-6">
-    <a class="text-uppercase btn-trans-dark-responsive" href="#">
-      <span class="lt-icon lt-tip lt-medium"></span>
-      <strong>Support</strong>
-    </a>
-  </li>
-      </ul>
-      <!-- END - ESTORE / SUPPORT BUTTONS -->
+                  <!-- START - ITEM ENTRY / BROCHURES BUTTONS -->
+                  <ul class="nav row m-0">
+                    <li class="col-xs-6">
+                      <a class="trigger-drawer-item-entry text-uppercase btn-trans-dark-responsive" href="#">
+                        <span class="lt-icon lt-item-entry lt-medium" aria-hidden="true"></span>
+                        <strong>Enter Items</strong>
+                      </a>
+                    </li>
+                    <li class="col-xs-6">
+                      <a class="trigger-drawer-item-entry text-uppercase btn-trans-dark-responsive" href="#">
+                        <span class="lt-icon lt-brochures lt-medium" aria-hidden="true"></span>
+                        <strong>Brochures</strong>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- END - ITEM ENTRY / BROCHURES BUTTONS -->
 
-  </nav>
-  <!-- END - UTILITY NAV 1 -->
+                  <!-- START - ESTORE / SUPPORT BUTTONS -->
+                  <ul class="nav row m-0">
 
-  <!-- Primary nav list -->
-  <ul class="nav nav-tabs navbar-main__list m-0">
+                    <li class="col-xs-6 dropdown">
+                      <a href="" data-original-title="" title="">
+                        <span class="lt-icon lt-store lt-medium"></span>
+                        <strong>My Store</strong>
+                        <span class="lt-icon lt-triangle-down hidden-xs-header"></span>
+                      </a>
+                    </li>
+                    <li class="col-xs-6">
+                      <a class="text-uppercase btn-trans-dark-responsive" href="#">
+                        <span class="lt-icon lt-tip lt-medium"></span>
+                        <strong>Support</strong>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- END - ESTORE / SUPPORT BUTTONS -->
 
-    <li class="visible-xs-block-header">
-      <a href="#" class="large">Home</a>
-    </li>
+                </nav>
+                <!-- END - UTILITY NAV 1 -->
 
-    <li class="active has-sub-items dropdown">
+                <!-- Primary nav list -->
+                <ul class="nav nav-tabs navbar-main__list m-0">
 
-      <a class="dropdown-toggle large" href="#" id="productsDrop" data-toggle="dropdown">Productos<span class="lt-icon lt-carat-down lt-medium hidden-xs-header"></span></a>
+                  <li class="visible-xs-block-header">
+                    <a href="#" class="large">Home</a>
+                  </li>
 
-      <!-- sub-menu toggle -->
-      <a class="toggle off-canvas-nested text-right visible-xs-flex-header" data-toggle="off-canvas-collapse" data-target=".navbar-products">
-        <span class="lt-icon lt-carat-right lt-large ml-auto"></span>
-      </a>
-      <span class="sr-only">Toggle sub-menu</span>
+                  <li class="active has-sub-items dropdown">
 
-      <!-- Sub nav list -->
-      <!-- START - PRODUCTS SUB-MENU -->
-  <div class="nav navbar-nav navbar-products navbar-sub off-canvas off-canvas--right">
+                    <a class="dropdown-toggle large" href="#" id="productsDrop" data-toggle="dropdown">Productos<span
+                        class="lt-icon lt-carat-down lt-medium hidden-xs-header"></span></a>
 
-    <!-- START - SUB-MENU HEADER -->
-    <div class="navbar-header visible-xs-flex-header align-items-center px-4">
+                    <!-- sub-menu toggle -->
+                    <a class="toggle off-canvas-nested text-right visible-xs-flex-header" data-toggle="off-canvas-collapse"
+                      data-target=".navbar-products">
+                      <span class="lt-icon lt-carat-right lt-large ml-auto"></span>
+                    </a>
+                    <span class="sr-only">Toggle sub-menu</span>
 
-      <!-- back button & menu title -->
-      <a class="toggle toggle-back off-canvas-nested flex-fill ml-0 p-0" data-toggle="off-canvas-collapse" data-target=".navbar-products">
-        <!-- Developer note: This is the label or the parent. If Magnolia won't let you print the name twice, use the word "Back" -->
-        <h3 class="text-light d-inline-block text-capitalize m-0 "><span class="lt-icon lt-left lt-medium mr-2"></span> Products</h3>
-      </a>
+                    <!-- Sub nav list -->
+                    <!-- START - PRODUCTS SUB-MENU -->
+                    <div class="nav navbar-nav navbar-products navbar-sub off-canvas off-canvas--right">
 
-      <!-- close button -->
-      <button class="off-canvas-nested navbar-toggle primary-nav__close link-reverse-plain m-0 p-4" type="button" data-toggle="off-canvas-collapse" data-target=".navbar-products, .navbar-collapse">
-    <span class="sr-only">Close navigation</span>
-    <span class="lt-icon lt-close lt-large py-1"></span>
-  </button>
+                      <!-- START - SUB-MENU HEADER -->
+                      <div class="navbar-header visible-xs-flex-header align-items-center px-4">
 
-    </div>
-    <!-- END - SUB-MENU HEADER -->
+                        <!-- back button & menu title -->
+                        <a class="toggle toggle-back off-canvas-nested flex-fill ml-0 p-0" data-toggle="off-canvas-collapse"
+                          data-target=".navbar-products">
+                          <!-- Developer note: This is the label or the parent. If Magnolia won't let you print the name twice, use the word "Back" -->
+                          <h3 class="text-light d-inline-block text-capitalize m-0 "><span class="lt-icon lt-left lt-medium mr-2"></span>
+                            Products</h3>
+                        </a>
 
-    <!-- START - PRODUCTS SUB-MENU LIST -->
-    <ul class="nav navbar-nav navbar-sub__sub-list dropdown-menu dropdown-menu--responsive m-0">
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Makeup</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Skincare</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Bath &amp; Body</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Fragrance</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Jewelry</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Fashion</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>mark. <span class="text-uppercase">by avon</span></span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Avon Living</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Men</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Outlet</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 1</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 2</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 3 Lorem Ipsum Dolor</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 4</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 5</span></a>
-      </li>
-    </ul>
-    <!-- END - PRODUCTS SUB-MENU LIST -->
+                        <!-- close button -->
+                        <button class="off-canvas-nested navbar-toggle primary-nav__close link-reverse-plain m-0 p-4"
+                          type="button" data-toggle="off-canvas-collapse" data-target=".navbar-products, .navbar-collapse">
+                          <span class="sr-only">Close navigation</span>
+                          <span class="lt-icon lt-close lt-large py-1"></span>
+                        </button>
 
-  </div>
-  <!-- END - PRODUCTS SUB-MENU -->
+                      </div>
+                      <!-- END - SUB-MENU HEADER -->
 
-    </li>
+                      <!-- START - PRODUCTS SUB-MENU LIST -->
+                      <ul class="nav navbar-nav navbar-sub__sub-list dropdown-menu dropdown-menu--responsive m-0">
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Makeup</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Skincare</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Bath &amp; Body</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Fragrance</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Jewelry</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Fashion</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>mark. <span class="text-uppercase">by
+                                avon</span></span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Avon Living</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Men</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Outlet</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 1</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 2</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 3 Lorem Ipsum Dolor</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 4</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Extra Item 5</span></a>
+                        </li>
+                      </ul>
+                      <!-- END - PRODUCTS SUB-MENU LIST -->
 
-    <li class="has-sub-items dropdown">
+                    </div>
+                    <!-- END - PRODUCTS SUB-MENU -->
 
-      <a class="dropdown-toggle large" href="#" id="ordersDrop" data-toggle="dropdown">Pedidos<span class="lt-icon lt-carat-down lt-medium hidden-xs-header"></span></a>
+                  </li>
 
-      <!-- sub-menu toggle -->
-      <a class="toggle off-canvas-nested text-right visible-xs-flex-header" data-toggle="off-canvas-collapse" data-target=".navbar-orders">
-        <span class="lt-icon lt-carat-right lt-large ml-auto"></span>
-      </a>
-      <span class="sr-only">Toggle sub-menu</span>
+                  <li class="has-sub-items dropdown">
 
-      <!-- Sub nav list -->
-      <!-- START - ORDERS SUB-MENU -->
-  <div class="nav navbar-nav navbar-orders navbar-sub off-canvas off-canvas--right">
+                    <a class="dropdown-toggle large" href="#" id="ordersDrop" data-toggle="dropdown">Pedidos<span class="lt-icon lt-carat-down lt-medium hidden-xs-header"></span></a>
 
-    <!-- START - SUB-MENU HEADER -->
-    <div class="navbar-header visible-xs-flex-header align-items-center px-4">
+                    <!-- sub-menu toggle -->
+                    <a class="toggle off-canvas-nested text-right visible-xs-flex-header" data-toggle="off-canvas-collapse"
+                      data-target=".navbar-orders">
+                      <span class="lt-icon lt-carat-right lt-large ml-auto"></span>
+                    </a>
+                    <span class="sr-only">Toggle sub-menu</span>
 
-      <!-- back button & menu title -->
-      <a class="toggle toggle-back off-canvas-nested flex-fill ml-0 p-0" data-toggle="off-canvas-collapse" data-target=".navbar-orders">
-        <div>
-          <span class="lt-icon lt-left lt-medium mr-2"></span>
-          <!-- Developer note: This is the label or the parent. If Magnolia won't let you print the name twice, use the word "Back" -->
-          <h3 class="text-light d-inline-block text-capitalize m-0">Orders</h3>
+                    <!-- Sub nav list -->
+                    <!-- START - ORDERS SUB-MENU -->
+                    <div class="nav navbar-nav navbar-orders navbar-sub off-canvas off-canvas--right">
+
+                      <!-- START - SUB-MENU HEADER -->
+                      <div class="navbar-header visible-xs-flex-header align-items-center px-4">
+
+                        <!-- back button & menu title -->
+                        <a class="toggle toggle-back off-canvas-nested flex-fill ml-0 p-0" data-toggle="off-canvas-collapse"
+                          data-target=".navbar-orders">
+                          <div>
+                            <span class="lt-icon lt-left lt-medium mr-2"></span>
+                            <!-- Developer note: This is the label or the parent. If Magnolia won't let you print the name twice, use the word "Back" -->
+                            <h3 class="text-light d-inline-block text-capitalize m-0">Orders</h3>
+                          </div>
+                        </a>
+
+                        <!-- close button -->
+                        <button class="off-canvas-nested navbar-toggle primary-nav__close link-reverse-plain m-0 p-4"
+                          type="button" data-toggle="off-canvas-collapse" data-target=".navbar-orders, .navbar-collapse">
+                          <span class="sr-only">Close navigation</span>
+                          <span class="lt-icon lt-close lt-large py-1"></span>
+                        </button>
+
+                      </div>
+                      <!-- END - SUB-MENU HEADER -->
+
+                      <!-- START - ORDERS SUB-MENU LIST -->
+                      <ul class="nav navbar-nav navbar-sub__sub-list dropdown-menu dropdown-menu--responsive m-0">
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Online Order History</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Direct Delivery Orders</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Customer Product Reminders</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Invoices</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Invoice Addendums</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Track Submitted Orders</span></a>
+                        </li>
+                        <li class="sub-list-item">
+                          <a class="collapsed d-flex align-items-center" href="#"><span>Returns</span></a>
+                        </li>
+                      </ul>
+                      <!-- END - ORDERS SUB-MENU LIST -->
+
+                    </div>
+                    <!-- END - ORDERS SUB-MENU -->
+
+                  </li>
+
+                  <li>
+                    <a href="#" class="large">Oficina Web</a>
+                  </li>
+                  <li>
+                    <a href="#" class="large">Campaign Insider</a>
+                  </li>
+                  <li>
+                    <a href="#" class="large">Earnings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="large">Premios Y Reconocimientos</a>
+                  </li>
+                  <li>
+                    <a href="#" class="large">Liderazgo</a>
+                  </li>
+                </ul>
+                <!-- END - MAIN MENU LIST -->
+              </div>
+
+            </nav>
+            <!-- END - GLOBAL HEADER NAV CONTAINER -->
+          </header>
         </div>
-      </a>
-
-      <!-- close button -->
-      <button class="off-canvas-nested navbar-toggle primary-nav__close link-reverse-plain m-0 p-4" type="button" data-toggle="off-canvas-collapse" data-target=".navbar-orders, .navbar-collapse">
-    <span class="sr-only">Close navigation</span>
-    <span class="lt-icon lt-close lt-large py-1"></span>
-  </button>
-
+      </div>
+      <!-- /.row -->
     </div>
-    <!-- END - SUB-MENU HEADER -->
-
-    <!-- START - ORDERS SUB-MENU LIST -->
-    <ul class="nav navbar-nav navbar-sub__sub-list dropdown-menu dropdown-menu--responsive m-0">
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Online Order History</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Direct Delivery Orders</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Customer Product Reminders</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Invoices</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Invoice Addendums</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Track Submitted Orders</span></a>
-      </li>
-      <li class="sub-list-item">
-        <a class="collapsed d-flex align-items-center" href="#"><span>Returns</span></a>
-      </li>
-    </ul>
-    <!-- END - ORDERS SUB-MENU LIST -->
-
-  </div>
-  <!-- END - ORDERS SUB-MENU -->
-
-    </li>
-
-    <li>
-      <a href="#" class="large">Oficina Web</a>
-    </li>
-    <li>
-      <a href="#" class="large">Campaign Insider</a>
-    </li>
-    <li>
-      <a href="#" class="large">Earnings</a>
-    </li>
-    <li>
-      <a href="#" class="large">Premios Y Reconocimientos</a>
-    </li>
-    <li>
-      <a href="#" class="large">Liderazgo</a>
-    </li>
-  </ul>
-  <!-- END - MAIN MENU LIST -->
-    </div>
-
-  </nav>
-  <!-- END - GLOBAL HEADER NAV CONTAINER -->
-</header>
- </div> 
- </div> 
- <!-- /.row --> 
- </div> 
- <!-- END - HEADER --> 
-<div>Home-new.html</div>
-
-   <!-- START - FOOTER -->
-   <footer class="my-5 footer text-center global-footer small">
-    <hr>
-    <div class="container">
+    <!-- END - HEADER -->
+    <!-- Begin Main -->
+    <section class="container container--page">
+      <section class="my-5">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                
-                <div class="footer-group mb-4">
-                    <ul class="list-unstyled list-inline">
-                        <li class="my-1 mx-2"><a href="#!">Site Map</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Privacy Statement</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Conditions of Use</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Product Recall</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Direct Selling Messaging</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Product Safety Certificates</a></li>
-                        <li class="my-1 mx-2"><a href="#!">California Supply Chains Act</a></li>
-                        <li class="my-1 mx-2"><a href="#!">Animal Welfare Policy</a></li>
-                    </ul>
+          <div class="col-md-12 col-xs-12">
+            <style>
+              @media (min-width: 1200px) {
+                .arrow {
+                  margin-top: 150px;
+                }
+
+                .arrow-left {
+                  margin-left: 15px;
+                }
+
+                .arrow-right {
+                  margin-left: -58px;
+                }
+              }
+
+              @media (min-width: 992px) and (max-width: 1199px) {
+                .arrow {
+                  margin-top: 120px;
+                }
+
+                .arrow-left {
+                  margin-left: 0
+                }
+
+                .arrow-right {
+                  margin-left: -35px;
+                }
+              }
+
+              @media (min-width: 768px) and (max-width: 991px) {
+                .arrow {
+                  margin-top: 80px;
+                }
+
+                .arrow-left {
+                  margin-left: 0
+                }
+
+                .arrow-right {
+                  margin-left: -35px;
+                }
+              }
+
+              @media (max-width: 767px) {
+                .arrow {
+                  margin-top: 200px;
+                }
+
+                .arrow-left {
+                  margin-left: 0
+                }
+
+                .arrow-right {
+                  margin-left: -35px;
+                }
+              }
+
+              .carousel-control {
+                opacity: 1 !important
+              }
+
+              .lt-carat-left,
+              .lt-carat-right {
+                visibility: hidden;
+              }
+
+              .carousel-inner {
+                width: 100% !important;
+              }
+
+              /*Home page carousel */
+              #carousel-home-page .carousel-inner {
+                padding-bottom: 25px;
+              }
+
+              #carousel-home-page .carousel-indicators {
+                bottom: -25px;
+              }
+
+              #carousel-home-page .carousel-indicators li {
+                margin: 3px;
+              }
+
+              #carousel-home-page .carousel-control .lt-right {
+                right: 0;
+              }
+
+              #carousel-home-page .carousel-control .lt-left {
+                left: 0;
+              }
+
+              @media screen and (max-width: 768px) {
+                #carousel-home-page .carousel-indicators {
+                  bottom: -25px;
+                }
+              }
+            </style>
+            <div align="center" class="m-top-s0 m-bottom-s1">
+
+              <div id="carousel-home-page" class="carousel slide" data-ride="carousel" data-interval="20000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-home-page" data-slide-to="0" class=""></li>
+                  <li data-target="#carousel-home-page" data-slide-to="1" class="active"></li>
+                  <li data-target="#carousel-home-page" data-slide-to="2" class=""></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item">
+                    <a href="https://www.facebook.com/Avon/app/2036610533255571/" target="_blank"><img src="/images/slider/C20_Hydra.jpg"
+                        class="hidden-xs img-responsive"></a>
+                    <a href="https://www.facebook.com/Avon/app/2036610533255571/" target="_blank"><img src="/images/slider/C20_Hydra.jpg"
+                        class="visible-xs img-responsive"></a>
+                  </div>
+                  <div class="item active">
+                    <a href="/home/campaign-insider"><img src="/images/slider/C20_FuerzaAvon.jpg" class="hidden-xs img-responsive"></a>
+                    <a href="/home/campaign-insider"><img src="/images/slider/C20_FuerzaAvon.jpg" class="visible-xs img-responsive"></a>
+                  </div>
+                  <div class="item">
+                    <a href="/home/rewards-recognition"><img src="/images/slider/C20_Paris.jpg" class="hidden-xs img-responsive"></a>
+                    <a href="/home/rewards-recognition"><img src="/images/slider/C20_Paris.jpg" class="visible-xs img-responsive"></a>
+                  </div>
                 </div>
 
-                <div class="footer-group my-4">
-                    <h6 class="title mb-2 d-inline mx-2">Call Support</h6>
-                    <ul class="list-unstyled list-inline d-inline">
-                        <li class="my-1 mx-2">English: <a href="tel:1-866-513-2866" class="link-phone-number">(866) 513-AVON</a></li>
-                        <li class="my-1 mx-2">Espanol: <a href="tel:1-866-588-2866" class="link-phone-number">(866) 588-AVON</a></li>
-                    </ul>
-                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-home-page" data-slide="prev" ng-non-bindable="">
+                  <img class="arrow arrow-left" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABQCAYAAACpv3NFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGRjhGOTI1OUZFNUMxMUUzQUNBNEI2MzQ4M0MxQTA0OSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGRjhGOTI1QUZFNUMxMUUzQUNBNEI2MzQ4M0MxQTA0OSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZGOEY5MjU3RkU1QzExRTNBQ0E0QjYzNDgzQzFBMDQ5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkZGOEY5MjU4RkU1QzExRTNBQ0E0QjYzNDgzQzFBMDQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+shpj0QAABCJJREFUeNrs3OlTEmEcwHFYZEEBBcxy0sq8stTkD8i0+1I7PbKSrH+qu6w80KZxytSZprTjdYMjHnlkmtbkhQkpoCz9noeF6b17PDvP7hvfufP9PL+9cFEbiUT6NBRvjIbyTQVQAVQAFUAFUAFUABVABVDCFh5ZNvqqOgsivpCOOgAcf7Tdsfl2Oi38ZT6JKoDwKMQfa3dw3oDe3FE5mFCW6aMGAMfDynPLAb3lRdWgviJ7hZpzQHjMCyvfgePN7ZWCxxMNgOOPwMovrevNropBtipnRYz9EAkQHvcaIL4Ex7dB/PncFbH2xRAZX45XnjW3nvOwF8SLJw4gPLFi4MeeNbdA/MU8LzU3Qji+3OXgFiG+GeIviR9PDEB85VH8s7Me9rI08UQA4Hh0nV9YQ/FDbHW+V8r9ywrATfLx82sGPn6ZmochFL+KLnUovumMR454tCXIEj/1Jxr/e81ofgrxtfuW5VoIRpb4cj6+6bSs8ZIDcN9XWRz/yx+NryuQNV5SABxfBtd5FI/GnoB4yc4B3DRaeYj/SVa8JBOA49HKz/HxV8mJFx2Am+FXfg4f80OkxYsKgOPRys9C/BOIr9+/ROKjtygA3KwPxZfg+McQf43MeFEAcHxpG4pPND08NcReJzdecAA41vWrh12x+GFDwwGi4wUFwPGlbQ7uhy/R9OAkil/UKGBjhFt5Pv7eiWGDs1AR8YIAoHj8Sc4MxN+F+MYixcRv+U4Qx8PYh9HK3zk+YrilrPgtT8Dm5zlLeGY1CcJnDbeLFzQK3LYEkHAow6fLtv4NPvJkhp6PpFIHwGSYNyx9NQO6rOQ1f2NvYahZeQhbPglihP5ahLDuvwkILcpCEOQyyCO4md2Wdb8TEFpH7VQBxBCSP9a5mV2A0NBTpBQEQW+FMcInHsEJCG3kIwj+MBSdhNoB+BmdBMIRRHkcZjItIZiEKIKztyjk+mqnCiCO8AEmYacpgCeBUARRPxJjdicjBDdGQOeEjjE7VQBxBHSJTAeEG93EIUjydwFmDz8JUYRCQLBRBRBHQJOwwxTkJ8FGFQDeWRY/CTGEl+M2qgDiCP01A8z2pKC//o3sCLK8H8DsTQniS2QMoXPCShVAHKGPn4S6rmK5EGR9RYbJscYQQhjh1aSVKoAYguV9jRsj1LyWHIGI1+R0uTxCWhRho+ublSqAOEIfIGxLDPmrpUMg6lVZjAA3S9pUYwwhhSqA/ydBazeiw+Gg2AhEvi6vy7PBJACCjUfonkqhCiCOAJdIQNiAw0E0BKK/MqPLtwXw4WA1RBF6hEcg/ktTGOFdtVubwm74r8CJUWAERXxtTldgD6D7BEDYDN4fTBfyd2uV9E9U0Gu26LNGjZ6JCPU7EzQK2tADFHXnAOpuhFQAFUAFUAFUABVABZBs+yfAAD8tSjLscAUnAAAAAElFTkSuQmCC">
+                </a>
+                <a class="right carousel-control" href="#carousel-home-page" data-slide="next" ng-non-bindable="">
+                  <img class="arrow arrow-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABQCAYAAACpv3NFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGRjhGOTI1NUZFNUMxMUUzQUNBNEI2MzQ4M0MxQTA0OSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGRjhGOTI1NkZFNUMxMUUzQUNBNEI2MzQ4M0MxQTA0OSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZGOEY5MjUzRkU1QzExRTNBQ0E0QjYzNDgzQzFBMDQ5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkZGOEY5MjU0RkU1QzExRTNBQ0E0QjYzNDgzQzFBMDQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/LaByQAAA0lJREFUeNrs29tOE0EYB3A6a6C2brs9QZGKeAyW1vgAXvkAXmGLGo8Y9Z2MGo0H1KhYENQawMO1aYOKZ6PBG028sFvpzrbUbzfLBK+7uzOTmXmAJv9fZ6Yz33wNtNvt+S6BR0ACSAAJIAEkgASQABJAAgg6kFsf1K5hpXZwcri19DsoJEDr1c9Qs/wtVTtwex9PCK4uAXP6i1YbLeVRPGiqc4WKMhxvCLcH8IbgySaIS581vTCVR4mNpjoPCLtjDaEAbIQHnzS9OM08gqc/g3gSEMZsBKwuAMKumCHcOQDf/xjTDz/MsYrgy0EI3wOEI4CQtBCKFWWnZggFYCPcBYSj7CH4ehTGdz7E9GMzOZQKYXtjZADB97sAIMQBYQT1AsIcfQQqlyEHIQcIRgRmAtpBD4HabRDfeh/XT8xaCA1AqNJCoHodthGOA0IfIDwrVtG2qCEUgI0w8Q5mwqMcSocbkYWC7whMFERsBGsm9G+yZkIFDUWwUAA0EZgqieGbDsKAg7DVewTmaoJ+IzBZFMU3lhKwMY6gjIMw6B0Cs1VhfB0QTnqPwHRZHF8DhFM2wkrkxVgVZVQsFIA1jKtvE/Xxx54hcPEwAghJQMiiLaqFUIEN0hQKwEa48iZZP/PEdQSunsaMy6+T9bPlLBoEhOfuIHD3NmhcAoRz5awyFFmxKkudInD5OGpcXEzVzz/do8ByUDtcDqiLw9Eznv/Vczq33Pr+J9R8+UPt5LO4BLDOB7AUMsp2rb5h/0BNqCWwdkKEPeAv7AFVofaAtTuCWxsgVwDklujiTyA3ACS8iCdBUinKuB+e/dvgBCmOiHcbJCXzzWHPwjMLsC68eBUh8mzW73145gBI+HRYvKoweTpPhw2/wjMDQML3OeFFehki7TMUwlMHIOGtPgHRXodJCx3F8NQA/gtPsTmCCgBpo+0NYdrtMb4DrA/PQoOUrwCki5yhFjnfAKzw+qGpfCARFK9TFMJHIfxeFsN7DmCHL0D4WFC8bnFz5mtUHy0xHd4zADu8Ne21HvH+MWLOWt88H+FdB3DC5wPR7iYv/xpz9WnMuLCY5im8+0vAXA2sLte6aV1suC2ISAAJIAEkgASQABJAAkgACuOfAAMAvs0kdJEPkrYAAAAASUVORK5CYII=">
+                </a>
+              </div>
 
-                <div class="footer-group my-4">
-                    © 2018 New Avon LLC
-                </div>
             </div>
+            <h3 class="mt-5" style="text-align: center;">NUESTRA COMPAÑÍA</h3>
+            <p class="font-weight-bold" style="text-align: center;">Con una gran variedad de productos para todos en el hogar, ganancias ilimitadas y la oportunidad de ser tu propio jefe.</p>
+            <p style="text-align: center;"><button type="button" class="btn btn-primary px-2  my-5">BUSCA UNA REPRESENTANTE</button><button type="button" class="btn btn-primary px-5 mx-5 my-5">HAZTE REPRESENTANTE</button></p>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- END - FOOTER -->
-</section> 
-</body> 
-</HTML> 
-   
+      </section>
+    </section>
+    <!-- END MAIN-->
+    <!-- START - FOOTER -->
+    <footer class="my-5 footer text-center global-footer small">
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+
+            <div class="footer-group mb-4">
+              <ul class="list-unstyled list-inline">
+                <li class="my-1 mx-2"><a href="#!">Site Map</a></li>
+                <li class="my-1 mx-2"><a href="#!">Privacy Statement</a></li>
+                <li class="my-1 mx-2"><a href="#!">Conditions of Use</a></li>
+                <li class="my-1 mx-2"><a href="#!">Product Recall</a></li>
+                <li class="my-1 mx-2"><a href="#!">Direct Selling Messaging</a></li>
+                <li class="my-1 mx-2"><a href="#!">Product Safety Certificates</a></li>
+                <li class="my-1 mx-2"><a href="#!">California Supply Chains Act</a></li>
+                <li class="my-1 mx-2"><a href="#!">Animal Welfare Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-group my-4">
+              <h6 class="title mb-2 d-inline mx-2">Call Support</h6>
+              <ul class="list-unstyled list-inline d-inline">
+                <li class="my-1 mx-2">English: <a href="tel:1-866-513-2866" class="link-phone-number">(866) 513-AVON</a></li>
+                <li class="my-1 mx-2">Espanol: <a href="tel:1-866-588-2866" class="link-phone-number">(866) 588-AVON</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-group my-4">
+              © 2018 New Avon LLC
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END - FOOTER -->
+  </section>
+</body>
+
+</HTML>
