@@ -431,23 +431,33 @@
         <div class="row">
           <div class="col-md-12 col-xs-12">
             <style>
+              .carousel-control {
+                opacity: 1 !important;
+                width: 4.2rem;
+              }
               @media (min-width: 1200px) {
                 .arrow {
-                  margin-top: 150px;
+                  margin-top: 17rem;
+                  width: 100%;
                 }
 
                 .arrow-left {
-                  margin-left: 15px;
+                  margin-left: 0em;
                 }
 
                 .arrow-right {
-                  margin-left: -58px;
+                  margin-left: 0em;
+                }
+                .carousel-control {
+                    opacity: 1 !important;
+                    width: 5.2rem;
                 }
               }
 
               @media (min-width: 992px) and (max-width: 1199px) {
                 .arrow {
-                  margin-top: 120px;
+                  margin-top: 17rem;
+                  width: 100%;
                 }
 
                 .arrow-left {
@@ -455,13 +465,14 @@
                 }
 
                 .arrow-right {
-                  margin-left: -35px;
+                  margin-left: 0em;
                 }
               }
 
               @media (min-width: 768px) and (max-width: 991px) {
                 .arrow {
-                  margin-top: 80px;
+                  margin-top: 11rem;
+                  width: 100%;
                 }
 
                 .arrow-left {
@@ -469,27 +480,51 @@
                 }
 
                 .arrow-right {
-                  margin-left: -35px;
+                  margin-left: 0em;
+                }
+                .carousel-control {
+                 /* opacity: 1 !important; */
+                  width: 2.2em;
                 }
               }
 
-              @media (max-width: 767px) {
+              @media (min-width: 575px ) and (max-width: 767px) {
                 .arrow {
-                  margin-top: 200px;
+                  margin-top: 9rem;
+                  width: 100%;
                 }
 
                 .arrow-left {
-                  margin-left: 0
+                  margin-left: 0;
                 }
 
                 .arrow-right {
-                  margin-left: -35px;
+                  margin-left: 0em;
                 }
+                .carousel-control {
+                  width: 2em;
+                } 
+              }
+              @media (max-width: 576px) {  
+                .arrow {
+                  margin-top: 7rem;
+                  width: 100%;
+                }           
+                .carousel-control {
+                  width: 1.5em;
+                }                    
+              }
+              @media (max-width: 470px) {  
+                .arrow {
+                  margin-top: 6rem;
+                  width: 100%;
+                }  
+                .carousel-control {
+                  width: 1em;
+                }          
               }
 
-              .carousel-control {
-                opacity: 1 !important
-              }
+
 
               .lt-carat-left,
               .lt-carat-right {
@@ -588,7 +623,7 @@
                 <li class="my-1 mx-2"><a href="#!">Privacy Statement</a></li>
                 <li class="my-1 mx-2"><a href="#!">Conditions of Use</a></li>
                 <li class="my-1 mx-2"><a href="#!">Product Recall</a></li>
-                <li class="my-1 mx-2"><a href="#!">Direct Selling Messaging</a></li>
+                <li class="m5y-1 mx-2"><a href="#!">Direct Selling Messaging</a></li>
                 <li class="my-1 mx-2"><a href="#!">Product Safety Certificates</a></li>
                 <li class="my-1 mx-2"><a href="#!">California Supply Chains Act</a></li>
                 <li class="my-1 mx-2"><a href="#!">Animal Welfare Policy</a></li>
