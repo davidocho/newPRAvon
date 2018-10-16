@@ -435,84 +435,6 @@
                 opacity: 1 !important;
                 width: 4.2rem;
               }
-              @media (min-width: 1200px) {
-                .arrow {
-                  margin-top: 18rem;
-                  width: 100%;
-                }
-
-                .arrow-left {
-                  margin-left: 0em;
-                }
-
-                .arrow-right {
-                  margin-left: 0em;
-                }
-                .carousel-control {
-                    opacity: 1 !important;
-                    width: 5.2rem;
-                }
-              }
-
-              @media (min-width: 992px) and (max-width: 1199px) {
-                .arrow {
-                  margin-top: 15rem;
-                  width: 100%;
-                }
-
-                .arrow-left {
-                  margin-left: 0
-                }
-
-                .arrow-right {
-                  margin-left: 0em;
-                }
-              }
-
-              @media (min-width: 768px) and (max-width: 991px) {
-                .arrow {
-                  margin-top: 11rem;
-                  width: 100%;
-                }
-
-                .arrow-left {
-                  margin-left: 0
-                }
-
-                .arrow-right {
-                  margin-left: 0em;
-                }
-                .carousel-control {
-                    width: 3.8rem;
-                }
-              }
-
-              @media (min-width: 575px ) and (max-width: 767px) {
-                .arrow {
-                  margin-top: 11rem;
-                  width: 100%;
-                }
-
-                .arrow-left {
-                  margin-left: 0;
-                }
-
-                .arrow-right {
-                  margin-left: 0em;
-                }
-                .carousel-control {
-                  width: 2em;
-                } 
-              }
-              @media (max-width: 576px) {  
-                .arrow {
-                  margin-top: 8rem;
-                  width: 100%;
-                }           
-                .carousel-control {
-                  width: 1.3em;
-                }                    
-              }
               @media (max-width: 470px) {  
                 .arrow {
                   margin-top: 7rem;
@@ -522,8 +444,6 @@
                   width: 1em;
                 }          
               }
-
-
 
               .lt-carat-left,
               .lt-carat-right {
@@ -555,10 +475,151 @@
                 left: 0;
               }
 
+              @media (max-width: 576px) {  
+                .arrow {
+                  margin-top: 8rem;
+                  width: 100%;
+                }           
+                .carousel-control {
+                  width: 1.3em;
+                }
+                .avonrep img {
+                  width: 95%;
+                }                    
+              }
+
+              @media (min-width: 575px ) and (max-width: 767px) {
+                .arrow {
+                  margin-top: 11rem;
+                  width: 100%;
+                }
+
+                .arrow-left {
+                  margin-left: 0;
+                }
+
+                .arrow-right {
+                  margin-left: 0em;
+                }
+                .carousel-control {
+                  width: 2em;
+                }
+                .col-md-2 {
+                  width: 14.66667%;
+                  min-width: 167px;
+                  margin-bottom: 36px;
+                }
+                .avonops small {
+                  width: 96%;
+                }
+              }
               @media screen and (max-width: 768px) {
                 #carousel-home-page .carousel-indicators {
                   bottom: -25px;
                 }
+              }
+              @media (min-width: 768px) and (max-width: 991px) {
+                .arrow {
+                  margin-top: 11rem;
+                  width: 100%;
+                }
+
+                .arrow-left {
+                  margin-left: 0
+                }
+
+                .arrow-right {
+                  margin-left: 0em;
+                }
+                .carousel-control {
+                    width: 3.8rem;
+                }
+                .col-md-2 {
+                      width: 15.66667%;
+                      float: left;
+                }
+              }
+
+              @media (min-width: 992px) and (max-width: 1199px) {
+                .arrow {
+                  margin-top: 15rem;
+                  width: 100%;
+                }
+
+                .arrow-left {
+                  margin-left: 0
+                }
+
+                .arrow-right {
+                  margin-left: 0em;
+                }
+                .col-md-2 {
+                     float: left; 
+                      width: 16.66667%;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .arrow {
+                  margin-top: 18rem;
+                  width: 100%;
+                }
+
+                .arrow-left {
+                  margin-left: 0em;
+                }
+
+                .arrow-right {
+                  margin-left: 0em;
+                }
+                .carousel-control {
+                    opacity: 1 !important;
+                    width: 5.2rem;
+                }
+                .col-md-2 {
+                      width: 15.66667%;
+                      min-width: ;
+                      float: left;
+                }
+              }
+              .col-md-2:first-child, .col-md-2:first-child {
+                  max-width: ;
+              }
+              .avonrep img {
+                width: 70%;
+                margin: auto;
+              }
+              .avonrep h6 {
+                text-align: center;
+              }
+                
+              .avonops small {
+                color: #ED008C;
+              }
+              .row.avonops {
+                position: relative;
+                min-height: 68px;
+              }
+              .col-md-2.avonops:first-child {
+                vertical-align: middle;
+                min-height: 50px;
+              } 
+              .avonops small{
+                color: #ED008C;
+                width: 94%;
+                bottom: 0;
+                display: block;
+                position: absolute;
+                white-space: nowrap;
+              }
+              .bottom > * {
+                vertical-align: bottom;
+              }
+              .col-md-2.avonops.bottom {
+                min-height: 80px;
+                position: relative;
+                text-align: center;
+                margin-bottom: 36px;
               }
             </style>
             <div align="center" class="m-top-s0 m-bottom-s1">
@@ -599,12 +660,31 @@
               </div>
 
             </div>
-            <h3 class="mt-5" style="text-align: center;">NUESTRA COMPAÑÍA</h3>
+            <h3 class="mt-5" style="text-align: center;">AVON TE AYUDA A TRIUNFAR</h3>
             <p class="font-weight-bold" style="text-align: center;">Con una gran variedad de productos para todos en el hogar, ganancias ilimitadas y la oportunidad de ser tu propio jefe.</p>
+            <!-- Headshots  -->
+            <div class="row mb-5 mt-5">
+              <div class="col-xs-4 col-sm-4 col-md-4 avonrep"><img src="images/rep1-home.jpg" class="img-responsive" alt="Avon Represntative"><h6>Lisa Monosonc<br><small>Representante AVON</small></h6></div>
+              <div class="col-xs-4 col-sm-4 col-md-4 avonrep"><img src="images/rep2-home.jpg" class="img-responsive" alt="Avon Represntative"><h6>Orenthia Ricketts<br><small>Representante AVON</small></h6></div>
+              <div class="col-xs-4 col-sm-4 col-md-4 avonrep"><img src="images/rep3-home.jpg" class="img-responsive" alt="Avon Represntative"><h6>Linda Montavon<br><small>Representante AVON</small></h6></div>
+            </div>
+            <!-- END of Headshots  -->
             <p style="text-align: center;">
               <button type="button" class="btn btn-primary px-2  my-5" style="white-space: nowrap;">BUSCA UNA REPRESENTANTE</button>
-              <button type="button" class="btn btn-primary px-5 mx-5 my-5" style="white-space: nowrap;">HAZTE REPRESENTANTE</button></p>
+              <button type="button" class="btn btn-primary px-5 mx-5 my-5" style="white-space: nowrap;">HAZTE REPRESENTANTE</button>
+            </p>
+            <h5 class="mt-5" style="text-align: center;">La oportunidad de ganacias en avon no tiene limites</h5>
+            <br>
+            <div class="row avonops my-5 pt-3" align="center">
+              <div class="col-md-2 avonops">&nbsp;</div>
+              <div class="col-md-2 avonops bottom"><strong>Avon <br>Social</strong><small>Information aqui</small></div>
+              <div class="col-md-2 avonops bottom"><strong>Avon <br>Fundraising</strong><small>Mirar foileto</small></div>
+              <div class="col-md-2 avonops bottom"><strong>Avon <br>E-REP</strong><small>Mirar foileto</small></div>
+              <div class="col-md-2 avonops bottom"><strong>CONTÁCTENOS</strong><small>Information aqui</small></div>
+              <div class="col-md-2 avonops">&nbsp;</div>
+            </div>
           </div>
+
         </div>
       </section>
     </section>
